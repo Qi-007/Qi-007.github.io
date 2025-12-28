@@ -1,7 +1,7 @@
 ---
-title: 🚀 Claude Code 使用指南Simple Guides for Fuwari
+title: 🚀 Claude Code 使用指南
 published: 2025-12-28
-description: "Claude Code 神力"
+description: "Claude Code 初试"
 image: "./cover.jpeg"
 tags: ["AI Tools", "Claude Code"]
 category: Guides
