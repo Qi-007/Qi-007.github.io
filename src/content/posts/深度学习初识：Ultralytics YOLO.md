@@ -9,8 +9,6 @@ draft: false
 lang: 'zh-CN'
 ---
 
-# 深度学习初识：Ultralytics YOLO
-
 多说无益，先直接上手用 Ultralytics YOLO（YOLO11 / YOLOv8）训练自己的模型，对深度学习的整体工程流程有一定概念后再去看教学视频和书籍会更好，这样在书中令人头昏的专业术语会变成让你真正摸不着头脑的实际问题，比如：
 
 ❓ 为什么我 mAP 上不去？
