@@ -2,7 +2,7 @@
 title: 🚀 Claude Code 使用指南
 published: 2025-12-28
 description: "Claude Code 初试"
-image: "./cover.jpeg"
+image: "https://aircheetah.dpdns.org/PicGo/Claude.jpg"
 tags: ["AI Tools", "Claude Code"]
 category: Guides
 draft: false
