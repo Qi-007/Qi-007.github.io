@@ -24,7 +24,7 @@ lang: 'zh-CN'
 
     ps: 队内的TB47S、48S电池输出电压为24v，需要一个出口为XT30的分电板和一块24v转12v的降压板
 
-    *~~有自己找东西的功夫不如找个电控哥，专事找专人。~~*  
+    *~~找不到东西就找个电控哥~~*  
     <img src="https://aircheetah.dpdns.org/PicGo/radar-1.jpg" alt="radar-1" style="zoom:15%;" />
 
 - 上电后修改网络设置
