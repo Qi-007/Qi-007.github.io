@@ -20,23 +20,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: pnpm
-
       - uses: pnpm/action-setup@v4
         with:
           version: 9
           run_install: false
 
-      - run: pnpm install --frozen-lockfile
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
 
+      - run: corepack enable
+
+      - run: which pnpm && pnpm --version
+
+      - run: pnpm install --frozen-lockfile
       - run: pnpm build
 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+
 
   deploy:
     runs-on: ubuntu-latest
